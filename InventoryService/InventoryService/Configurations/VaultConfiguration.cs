@@ -1,7 +1,7 @@
 ﻿using GraphQLParser;
-using VaultSharp.V1.AuthMethods.Token;
-using VaultSharp.V1.AuthMethods;
 using VaultSharp;
+using VaultSharp.V1.AuthMethods;
+using VaultSharp.V1.AuthMethods.Token;
 
 namespace InventoryService.Configurations
 {
