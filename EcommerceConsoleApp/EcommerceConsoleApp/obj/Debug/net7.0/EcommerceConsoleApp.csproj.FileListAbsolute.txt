@@ -1,0 +1,15 @@
+G:\Local disk\IntelMay2023\EcommerceConsoleApp\EcommerceConsoleApp\bin\Debug\net7.0\EcommerceConsoleApp.exe
+G:\Local disk\IntelMay2023\EcommerceConsoleApp\EcommerceConsoleApp\bin\Debug\net7.0\EcommerceConsoleApp.deps.json
+G:\Local disk\IntelMay2023\EcommerceConsoleApp\EcommerceConsoleApp\bin\Debug\net7.0\EcommerceConsoleApp.runtimeconfig.json
+G:\Local disk\IntelMay2023\EcommerceConsoleApp\EcommerceConsoleApp\bin\Debug\net7.0\EcommerceConsoleApp.dll
+G:\Local disk\IntelMay2023\EcommerceConsoleApp\EcommerceConsoleApp\bin\Debug\net7.0\EcommerceConsoleApp.pdb
+G:\Local disk\IntelMay2023\EcommerceConsoleApp\EcommerceConsoleApp\obj\Debug\net7.0\EcommerceConsoleApp.csproj.AssemblyReference.cache
+G:\Local disk\IntelMay2023\EcommerceConsoleApp\EcommerceConsoleApp\obj\Debug\net7.0\EcommerceConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+G:\Local disk\IntelMay2023\EcommerceConsoleApp\EcommerceConsoleApp\obj\Debug\net7.0\EcommerceConsoleApp.AssemblyInfoInputs.cache
+G:\Local disk\IntelMay2023\EcommerceConsoleApp\EcommerceConsoleApp\obj\Debug\net7.0\EcommerceConsoleApp.AssemblyInfo.cs
+G:\Local disk\IntelMay2023\EcommerceConsoleApp\EcommerceConsoleApp\obj\Debug\net7.0\EcommerceConsoleApp.csproj.CoreCompileInputs.cache
+G:\Local disk\IntelMay2023\EcommerceConsoleApp\EcommerceConsoleApp\obj\Debug\net7.0\EcommerceConsoleApp.dll
+G:\Local disk\IntelMay2023\EcommerceConsoleApp\EcommerceConsoleApp\obj\Debug\net7.0\refint\EcommerceConsoleApp.dll
+G:\Local disk\IntelMay2023\EcommerceConsoleApp\EcommerceConsoleApp\obj\Debug\net7.0\EcommerceConsoleApp.pdb
+G:\Local disk\IntelMay2023\EcommerceConsoleApp\EcommerceConsoleApp\obj\Debug\net7.0\EcommerceConsoleApp.genruntimeconfig.cache
+G:\Local disk\IntelMay2023\EcommerceConsoleApp\EcommerceConsoleApp\obj\Debug\net7.0\ref\EcommerceConsoleApp.dll
