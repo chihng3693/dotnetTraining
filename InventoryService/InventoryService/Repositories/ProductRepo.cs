@@ -12,8 +12,15 @@ namespace InventoryService.Repositories
             _db = db;
         }
 
-        public async Task<Product> AddProduct(Product Product)
+        public async Task<Product> AddProduct(Product Product, long CategoryId)
         {
+            var result = await _db.Categories.FirstOrDefaultAsync(c =>
+                        c.CategoryId == CategoryId);
+            if (result != null)
+            {
+                Product.Category = result;
+            }
+
             var Result= await _db.Products.AddAsync(Product);
             await _db.SaveChangesAsync();
             return Result.Entity;
