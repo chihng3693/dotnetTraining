@@ -13,9 +13,6 @@ namespace InventoryService.Queries
             Field(_ => _.CreatedDate).Description("Created Date");
             Field(_ => _.LastUpdatedBy).Description("Last Updated By");
             Field(_ => _.LastUpdatedDate).Description("Last Updated Date");
-
-
-
         }
     }
 }

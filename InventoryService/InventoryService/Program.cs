@@ -8,6 +8,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Swashbuckle.Swagger;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
+using GraphQL.Server;
+using GraphQL.Server.Ui.Playground;
+using InventoryService.Schemas;
 
 var builder = WebApplication.CreateBuilder(args);
 ConfigurationManager configuration = builder.Configuration;
@@ -73,6 +76,13 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.ConfigureOptions<SwaggerConfiguration>();
 
+builder.Services.AddScoped<CategorySchema>();
+builder.Services.AddGraphQL()
+               .AddSystemTextJson()
+               .AddGraphTypes(typeof(CategorySchema), ServiceLifetime.Scoped);
+
+
+
 var app = builder.Build();
 var apiVersionDescriptionProvider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
 // Configure the HTTP request pipeline.
@@ -99,5 +109,7 @@ app.UseSwagger();
 //{
 //    c.SwaggerEndpoint($"/swagger/v1/swagger.json", $"v1");
 //});
+app.UseGraphQL<CategorySchema>();
+app.UseGraphQLPlayground(options: new PlaygroundOptions());
 
 app.Run();

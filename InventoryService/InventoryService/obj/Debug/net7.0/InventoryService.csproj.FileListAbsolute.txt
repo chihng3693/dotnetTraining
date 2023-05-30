@@ -34,7 +34,6 @@ G:\Local disk\IntelMay2023\InventoryService\InventoryService\obj\Debug\net7.0\re
 G:\Local disk\IntelMay2023\InventoryService\InventoryService\bin\Debug\net7.0\Azure.Core.dll
 G:\Local disk\IntelMay2023\InventoryService\InventoryService\bin\Debug\net7.0\Azure.Identity.dll
 G:\Local disk\IntelMay2023\InventoryService\InventoryService\bin\Debug\net7.0\GraphQL.dll
-G:\Local disk\IntelMay2023\InventoryService\InventoryService\bin\Debug\net7.0\GraphQLParser.dll
 G:\Local disk\IntelMay2023\InventoryService\InventoryService\bin\Debug\net7.0\GraphQL.DataLoader.dll
 G:\Local disk\IntelMay2023\InventoryService\InventoryService\bin\Debug\net7.0\GraphQL.NewtonsoftJson.dll
 G:\Local disk\IntelMay2023\InventoryService\InventoryService\bin\Debug\net7.0\GraphQL.Server.Core.dll
@@ -99,3 +98,4 @@ G:\Local disk\IntelMay2023\InventoryService\InventoryService\bin\Debug\net7.0\Sy
 G:\Local disk\IntelMay2023\InventoryService\InventoryService\bin\Debug\net7.0\System.Web.Http.dll
 G:\Local disk\IntelMay2023\InventoryService\InventoryService\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
 G:\Local disk\IntelMay2023\InventoryService\InventoryService\bin\Debug\net7.0\Swashbuckle.Core.dll
+G:\Local disk\IntelMay2023\InventoryService\InventoryService\bin\Debug\net7.0\GraphQL-Parser.dll
