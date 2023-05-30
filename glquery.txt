@@ -1,0 +1,13 @@
+query($categoryId:Long!)  {
+    category(categoryId:$categoryId) {
+        
+        categoryName
+        
+    }
+}
+
+
+{
+   "categoryId":2
+
+}
