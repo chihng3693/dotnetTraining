@@ -13,11 +13,11 @@ namespace InventoryService.Models
         [Column("DOP")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:MM dd yyyy}")]
-        public DateTime DOP { get; set; }
+        public DateTime? DOP { get; set; }
         [Column("DOE")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:MM dd yyyy}")]
-        public DateTime DOE { get; set; }
+        public DateTime? DOE { get; set; }
         [Column("Cost")]
         public long Cost { get; set; }
     }

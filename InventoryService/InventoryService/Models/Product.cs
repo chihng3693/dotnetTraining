@@ -11,7 +11,7 @@ namespace InventoryService.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column("Product_Id")]
         public long ProductId { get; set; }
-        [Column("Name",TypeName ="varchar(200")]
+        [Column("Name")]
         public string? Name { get; set; }
         //value object
         public ProductDescription? ProductDescription { get; set; }

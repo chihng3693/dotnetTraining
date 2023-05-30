@@ -27,7 +27,7 @@ providerCs.DataSource = datasource;
 //providerCs.UserID = CryptoService2.Decrypt(ConfigurationManager.
 //AppSettings["UserId"]);
 providerCs.MultipleActiveResultSets = true;
-providerCs.TrustServerCertificate = false;
+providerCs.TrustServerCertificate = true;
 builder.Services.AddDbContext<InventoryContext>(o =>
 o.UseSqlServer(providerCs.ToString()));
 

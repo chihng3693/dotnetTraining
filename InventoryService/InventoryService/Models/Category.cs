@@ -11,7 +11,7 @@ namespace InventoryService.Models
         [Column("Category_Id",TypeName ="bigint")]
         [Required]
         public long CategoryId { get; set; }
-        [Column("Category_Name", TypeName = "varchar(200)")]
+        [Column("Category_Name")]
         public string? CategoryName { get; set; }
         [Column("Created_Date")]
         [DataType(DataType.Date)]
