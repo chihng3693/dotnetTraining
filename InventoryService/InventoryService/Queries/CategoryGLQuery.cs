@@ -15,7 +15,7 @@ namespace InventoryService.Queries
               resolve: context => categoryRepo.GetCategories()
           );
 
-            //get catalog by id
+            //get category by id
             Field<CategoryGLType>(
                "category",
                arguments: new QueryArguments(new QueryArgument<LongGraphType> 

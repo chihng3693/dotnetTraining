@@ -7,7 +7,8 @@ namespace InventoryService.Schemas
     {
         public CategorySchema(IServiceProvider ServiceProvider)
         {
-            Query = ServiceProvider.GetRequiredService<CategoryGLQuery>();
+            Query = ServiceProvider.GetRequiredService<RootQuery>();
+           
 
         }
     }
