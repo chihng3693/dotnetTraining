@@ -11,3 +11,19 @@ query($categoryId:Long!)  {
    "categoryId":2
 
 }
+=====================
+mutation($category:CategoryInput!){
+  insertCategory(category:$category){
+    categoryName
+  }
+}
+
+{
+  "category": {
+    "categoryName": "Jewellery",
+    "createdDate": "2023-05-05",
+    "lastUpdatedDate": "2023-05-05",
+    "createdBy": "Parameswari",
+    "lastUpdatedBy": "Parameswari"
+  }
+}
