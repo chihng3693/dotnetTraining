@@ -54,9 +54,18 @@ namespace InventoryService.Repositories
             return result;
         }
 
-        public Task<Category> UpdateCategory(Category Category)
+        public async Task<Category> UpdateCategory(long Id, string CategoryName)
         {
-            throw new NotImplementedException();
+            var result = await _db.Categories.FirstOrDefaultAsync
+                (c => c.CategoryId == Id);
+            if (result != null)
+            {
+                result.CategoryName = CategoryName;
+                await _db.SaveChangesAsync();
+
+            }
+            return result;
+            
         }
     }
 }
