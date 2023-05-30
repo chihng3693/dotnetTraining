@@ -51,16 +51,21 @@ namespace InventoryService.Controllers
 
         // PUT api/<CategoryController>/5
         [HttpPut("{Id}")]
-        public async Task<Category> Put(int Id, [FromBody] string CategoryName)
+        public async Task<IActionResult> Put(int Id, [FromBody] string CategoryName)
         {
-            return await _categoryRepo.UpdateCategory(Id, CategoryName);
+          var result=  await _categoryRepo.UpdateCategory(Id, CategoryName);
+            return CreatedAtAction(nameof(Get),
+                         new { id = result.CategoryId }, result);
         }
 
         // DELETE api/<CategoryController>/5
         [HttpDelete("{Id}")]
-        public async Task<bool> Delete(int Id)
+        public async Task<IActionResult> Delete(int Id)
         {
-            return await _categoryRepo.DeleteCategory(Id);    
+            if (await _categoryRepo.DeleteCategory(Id))
+                return new OkResult();
+            else
+                return new BadRequestResult();
         }
     }
 }
