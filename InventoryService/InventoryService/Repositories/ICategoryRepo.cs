@@ -6,7 +6,7 @@ namespace InventoryService.Repositories
     {
         Task<Category> AddCategory(Category Category);
         Task<Category> UpdateCategory(Category Category);
-        Task<bool> DeleteCategory(Category Category);
+        Task<bool> DeleteCategory(long Id);
         Task<Category> GetCategoryById(long  Id);
         Task<IEnumerable<Category>> GetCategories();
     }

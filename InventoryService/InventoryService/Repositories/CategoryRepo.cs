@@ -22,9 +22,21 @@ namespace InventoryService.Repositories
             return Result.Entity;
         }
 
-        public Task<bool> DeleteCategory(Category Category)
+        public async Task<bool> DeleteCategory(long Id)
         {
-            throw new NotImplementedException();
+            var result = await _db.Categories.FirstOrDefaultAsync
+               (c => c.CategoryId == Id);
+            if (result != null){
+                _db.Categories.Remove(result);
+                await _db.SaveChangesAsync();
+            }
+            result = await _db.Categories.FirstOrDefaultAsync
+               (c => c.CategoryId == Id);
+            if (result == null)
+                return true;
+            else
+                return false;
+
         }
 
         public async Task<IEnumerable<Category>> GetCategories()
