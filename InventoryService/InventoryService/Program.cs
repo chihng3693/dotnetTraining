@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Swashbuckle.Swagger;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
 
 var builder = WebApplication.CreateBuilder(args);
 ConfigurationManager configuration = builder.Configuration;
@@ -41,22 +43,50 @@ builder.Services.AddTransient<IProductRepo,ProductRepo>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddApiVersioning(x =>
+//builder.Services.AddApiVersioning(x =>
+//{
+//    x.DefaultApiVersion = new ApiVersion(1, 0);
+//    x.AssumeDefaultVersionWhenUnspecified = true;
+//    x.ReportApiVersions = true;
+//    x.ApiVersionReader = new HeaderApiVersionReader("x-api-version");
+//});
+//builder.Services.AddSwaggerGen();
+
+builder.Services.AddApiVersioning(opt =>
 {
-    x.DefaultApiVersion = new ApiVersion(1, 0);
-    x.AssumeDefaultVersionWhenUnspecified = true;
-    x.ReportApiVersions = true;
-    x.ApiVersionReader = new HeaderApiVersionReader("x-api-version");
+    opt.DefaultApiVersion = new ApiVersion(1, 0);
+    opt.AssumeDefaultVersionWhenUnspecified = true;
+    opt.ReportApiVersions = true;
+    opt.ApiVersionReader = ApiVersionReader.Combine(new UrlSegmentApiVersionReader(),
+                                                    new HeaderApiVersionReader("x-api-version"),
+                                                    new MediaTypeApiVersionReader("x-api-version"));
 });
+
+builder.Services.AddVersionedApiExplorer(setup =>
+{
+    setup.GroupNameFormat = "'v'VVV";
+    setup.SubstituteApiVersionInUrl = true;
+});
+
+builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var app = builder.Build();
+builder.Services.ConfigureOptions<SwaggerConfiguration>();
 
+var app = builder.Build();
+var apiVersionDescriptionProvider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(options =>
+    {
+        foreach (var description in apiVersionDescriptionProvider.ApiVersionDescriptions.Reverse())
+        {
+            options.SwaggerEndpoint($"/swagger/{description.GroupName}/swagger.json",
+                description.GroupName.ToUpperInvariant());
+        }
+    });
 }
 
 app.UseHttpsRedirection();
@@ -65,9 +95,9 @@ app.UseAuthorization();
 
 app.MapControllers();
 app.UseSwagger();
-app.UseSwaggerUI(c =>
-{
-    c.SwaggerEndpoint($"/swagger/v1/swagger.json", $"v1");
-});
+//app.UseSwaggerUI(c =>
+//{
+//    c.SwaggerEndpoint($"/swagger/v1/swagger.json", $"v1");
+//});
 
 app.Run();

@@ -95,3 +95,7 @@ G:\Local disk\IntelMay2023\InventoryService\InventoryService\bin\Debug\net7.0\ru
 G:\Local disk\IntelMay2023\InventoryService\InventoryService\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 G:\Local disk\IntelMay2023\InventoryService\InventoryService\bin\Debug\net7.0\System.Reactive.dll
 G:\Local disk\IntelMay2023\InventoryService\InventoryService\bin\Debug\net7.0\System.Reactive.xml
+G:\Local disk\IntelMay2023\InventoryService\InventoryService\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+G:\Local disk\IntelMay2023\InventoryService\InventoryService\bin\Debug\net7.0\System.Web.Http.dll
+G:\Local disk\IntelMay2023\InventoryService\InventoryService\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+G:\Local disk\IntelMay2023\InventoryService\InventoryService\bin\Debug\net7.0\Swashbuckle.Core.dll

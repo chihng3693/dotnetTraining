@@ -8,11 +8,12 @@ using System.Reflection.Metadata.Ecma335;
 namespace InventoryService.Controllers
 {
     //[Route("api/[controller]")]
-    [ApiController]
+   
     [ApiVersion("1.0")]
-    // [ApiVersion("1.1")]
-    // [ApiVersion("2.0")]
+     [ApiVersion("1.1")]
+     [ApiVersion("2.0")]
     [Route("api/v{version:apiVersion}/[controller]")]
+    [ApiController]
     public class CategoryController : ControllerBase
     {
         private ICategoryRepo _categoryRepo;
@@ -26,7 +27,7 @@ namespace InventoryService.Controllers
 
         // GET: api/<CategoryController>
         [HttpGet]
-        [MapToApiVersion("2.0")]
+       // [MapToApiVersion("2.0")]
         public async Task<IEnumerable<Category>> Get()
         {
            return await _categoryRepo.GetCategories();
