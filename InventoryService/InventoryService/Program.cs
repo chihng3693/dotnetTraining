@@ -1,5 +1,6 @@
 using InventoryService.Configurations;
 using InventoryService.Contexts;
+using InventoryService.Repositories;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -30,6 +31,10 @@ providerCs.MultipleActiveResultSets = true;
 providerCs.TrustServerCertificate = true;
 builder.Services.AddDbContext<InventoryContext>(o =>
 o.UseSqlServer(providerCs.ToString()));
+
+//dependency Injection Register
+builder.Services.AddTransient<ICategoryRepo, CategoryRepo>();
+builder.Services.AddTransient<IProductRepo,ProductRepo>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
