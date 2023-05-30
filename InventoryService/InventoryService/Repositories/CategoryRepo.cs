@@ -1,5 +1,6 @@
 ﻿using InventoryService.Contexts;
 using InventoryService.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace InventoryService.Repositories
 {
@@ -26,14 +27,19 @@ namespace InventoryService.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<Category>> GetCategories()
+        public async Task<IEnumerable<Category>> GetCategories()
         {
-           
+            //select * from category;
+            return await _db.Categories.ToListAsync();
         }
 
-        public Task<Category> GetCategoryById(long Id)
+        public async Task<Category> GetCategoryById(long Id)
         {
-            throw new NotImplementedException();
+           //select * from category where categoryId=Id
+           var result= await _db.Categories.FirstOrDefaultAsync
+                (c => c.CategoryId == Id);
+           
+            return result;
         }
 
         public Task<Category> UpdateCategory(Category Category)
