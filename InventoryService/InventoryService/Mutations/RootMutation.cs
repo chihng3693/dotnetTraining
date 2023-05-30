@@ -15,7 +15,7 @@ namespace InventoryService.Mutations
           _categoryRepo = categoryRepo;
 
             Name = "EcommerceMutation";
-            Field<CategoryGLQuery>("insertCategory",
+            Field<CategoryGLType>("insertCategory",
             arguments: new QueryArguments(
 
                 new QueryArgument<CategoryGLInputType> { Name = "category" }),
@@ -25,19 +25,19 @@ namespace InventoryService.Mutations
 
                 var category = context.GetArgument<Category>("category");
 
-                return InsertCatalog(category);
+                return InsertCategory(category);
             });
 
 
         }
 
-        private Task<Category> InsertCatalog(Category Category)
+        private async Task<Category> InsertCategory(Category Category)
         {
             if (Category == null)
                 return null;
             else
             {
-                return _categoryRepo.AddCategory(Category);
+                return await _categoryRepo.AddCategory(Category);
             }
         }
     }
