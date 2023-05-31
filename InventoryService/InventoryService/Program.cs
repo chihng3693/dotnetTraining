@@ -36,8 +36,15 @@ providerCs.DataSource = datasource;
 //AppSettings["UserId"]);
 providerCs.MultipleActiveResultSets = true;
 providerCs.TrustServerCertificate = true;
+
 builder.Services.AddDbContext<InventoryContext>(o =>
 o.UseSqlServer(providerCs.ToString()));
+
+builder.Services.AddDbContext<InventoryIdentityContext>(options =>
+options.UseSqlServer(configuration.
+GetConnectionString("IdentityConn")));
+
+
 
 //dependency Injection Register
 builder.Services.AddTransient<ICategoryRepo, CategoryRepo>();
