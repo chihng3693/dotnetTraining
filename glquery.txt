@@ -27,3 +27,17 @@ mutation($category:CategoryInput!){
     "lastUpdatedBy": "Parameswari"
   }
 }
+========================================
+
+mutation($categoryId:Long!, $categoryName:String!){
+  updateCategory(categoryId:$categoryId,categoryName:$categoryName){
+    categoryName
+  }
+}
+
+
+{
+  "categoryId": 8,
+  "categoryName": "Electric Kitchen Appliances"
+  
+}
