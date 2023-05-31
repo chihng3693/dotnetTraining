@@ -54,10 +54,23 @@ GetConnectionString("IdentityConn")));
 builder.Services.AddTransient<ICategoryRepo, CategoryRepo>();
 builder.Services.AddTransient<IProductRepo,ProductRepo>();
 
+builder.Services.Configure<IdentityOptions>(option =>
+{
+    option.Password.RequireNonAlphanumeric=true;
+    option.Password.RequireDigit = true;
+    option.Password.RequireLowercase=true;
+    option.Password.RequireUppercase=true;
+  
+});
+
 // For Identity
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<InventoryIdentityContext>()
     .AddDefaultTokenProviders();
+
+Dictionary<string, Object> secretData = new VaultConfiguration(configuration)
+              .GetSecret().Result;
+
 
 // Adding Authentication
 builder.Services.AddAuthentication(options =>
@@ -66,7 +79,8 @@ builder.Services.AddAuthentication(options =>
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
 })
-
+// Add services to the container.
+           
 // Adding Jwt Bearer
 .AddJwtBearer(options =>
 {
@@ -78,7 +92,7 @@ builder.Services.AddAuthentication(options =>
         ValidateAudience = true,
         ValidAudience = configuration["JWT:ValidAudience"],
         ValidIssuer = configuration["JWT:ValidIssuer"],
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:Secret"]))
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretData["key"].ToString()))
     };
 });
 
