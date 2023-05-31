@@ -19,15 +19,18 @@ namespace InventoryService.Controllers
         private readonly UserManager<IdentityUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IConfiguration _configuration;
+        private ILogger<AuthenticationController> _logger;
 
         public AuthenticationController(
             UserManager<IdentityUser> userManager,
             RoleManager<IdentityRole> roleManager,
-            IConfiguration configuration)
+            IConfiguration configuration,
+            ILogger<AuthenticationController> logger)
         {
             _userManager = userManager;
             _roleManager = roleManager;
             _configuration = configuration;
+            _logger = logger;
         }
 
         [HttpPost]
@@ -52,6 +55,7 @@ namespace InventoryService.Controllers
 
                 var token = GetToken(authClaims);
 
+                _logger.LogInformation($"Token Generated as {token} for the user {model.UserName}");
                 return Ok(new
                 {
                     token = new JwtSecurityTokenHandler().WriteToken(token),
