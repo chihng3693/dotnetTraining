@@ -45,7 +45,7 @@ namespace InventoryService.Mutations
                    return UpdateCategory(categoryId, categoryName);
                }
            );
-
+            //will async operation
             Field<StringGraphType>(
                 "DeleteCategory",
                 arguments: new QueryArguments(new QueryArgument<NonNullGraphType<LongGraphType>>
@@ -53,9 +53,12 @@ namespace InventoryService.Mutations
                 resolve: context =>
                 {
                     var categoryId = context.GetArgument<long>("CategoryId");
-
-                    categoryRepo.DeleteCategory(categoryId);
-                    return $"CategoryId {categoryId} is successfully deleted";
+ 
+                    var status= DeleteCategory(categoryId);
+                    if (status.IsCompletedSuccessfully)
+                      return $"CategoryId {categoryId} is successfully deleted";
+                    else
+                        return $"CategoryId {categoryId} is not deleted";
                 }
             );
 
@@ -64,17 +67,32 @@ namespace InventoryService.Mutations
             arguments: new QueryArguments(
 
                 new QueryArgument<ProductGLInputType> { Name = "product" },
-                new QueryArgument<NonNullGraphType<LongGraphType>> { Name = "catalogId" }),
+                new QueryArgument<NonNullGraphType<LongGraphType>> { Name = "categoryId" }),
 
             resolve: context =>
             {
 
                 var product = context.GetArgument<Product>("product");
-                var catalogId = context.GetArgument<long>("catalogId");
+                var categoryId = context.GetArgument<long>("categoryId");
 
-                return InsertProduct(product,catalogId);
+                return InsertProduct(product,categoryId);
             });
-            
+
+            Field<ProductGLType>(
+               "UpdateProduct",
+               arguments: new QueryArguments(new QueryArgument<NonNullGraphType<LongGraphType>>
+               { Name = "ProductId" },
+               new QueryArgument<NonNullGraphType<LongGraphType>>
+               { Name = "Cost" }
+               ),
+               resolve: context =>
+               {
+                   var productId = context.GetArgument<long>("ProductId");
+                   var cost = context.GetArgument<long>("Cost");
+
+                   return UpdateProduct(productId,cost);
+               }
+           );
 
         }
 
@@ -95,6 +113,15 @@ namespace InventoryService.Mutations
 
         }
 
+        private async Task<bool> DeleteCategory(long categoryId)
+        {
+
+            return await _categoryRepo.DeleteCategory(categoryId);
+
+        }
+
+
+
         private async Task<Product> InsertProduct(Product Product,long CatalogId)
         {
             if (Product == null)
@@ -104,6 +131,11 @@ namespace InventoryService.Mutations
                 return await _productRepo.AddProduct(Product, CatalogId);
             }
         }
-        
+        private async Task<Product> UpdateProduct(long productId, long cost)
+        {
+
+            return await _productRepo.UpdateProduct(productId, cost);
+
+        }
     }
 }
