@@ -54,14 +54,14 @@ GetConnectionString("IdentityConn")));
 builder.Services.AddTransient<ICategoryRepo, CategoryRepo>();
 builder.Services.AddTransient<IProductRepo,ProductRepo>();
 
-builder.Services.Configure<IdentityOptions>(option =>
-{
-    option.Password.RequireNonAlphanumeric=true;
-    option.Password.RequireDigit = true;
-    option.Password.RequireLowercase=true;
-    option.Password.RequireUppercase=true;
+//builder.Services.Configure<IdentityOptions>(option =>
+//{
+//    option.Password.RequireNonAlphanumeric=true;
+//    option.Password.RequireDigit = true;
+//    option.Password.RequireLowercase=true;
+//    option.Password.RequireUppercase=true;
   
-});
+//});
 
 // For Identity
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()

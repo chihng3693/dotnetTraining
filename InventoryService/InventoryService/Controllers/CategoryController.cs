@@ -1,5 +1,7 @@
-﻿using InventoryService.Models;
+﻿using InventoryService.Auth;
+using InventoryService.Models;
 using InventoryService.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Reflection.Metadata.Ecma335;
 
@@ -8,7 +10,7 @@ using System.Reflection.Metadata.Ecma335;
 namespace InventoryService.Controllers
 {
     //[Route("api/[controller]")]
-   
+    [Authorize(Roles = Roles.Admin)]
     [ApiVersion("1.0")]
      [ApiVersion("1.1")]
      [ApiVersion("2.0")]
