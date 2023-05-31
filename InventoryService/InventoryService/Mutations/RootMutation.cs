@@ -46,19 +46,18 @@ namespace InventoryService.Mutations
                }
            );
             //will async operation
-            Field<StringGraphType>(
+            FieldAsync<StringGraphType>(
                 "DeleteCategory",
                 arguments: new QueryArguments(new QueryArgument<NonNullGraphType<LongGraphType>>
                 { Name = "CategoryId" }),
-                resolve: context =>
+                resolve: async context =>
                 {
                     var categoryId = context.GetArgument<long>("CategoryId");
  
-                    var status= DeleteCategory(categoryId);
-                    if (status.IsCompletedSuccessfully)
+                      await DeleteCategory(categoryId);
+                    
                       return $"CategoryId {categoryId} is successfully deleted";
-                    else
-                        return $"CategoryId {categoryId} is not deleted";
+                    
                 }
             );
 
