@@ -1,4 +1,5 @@
 ﻿using InventoryService.Auth;
+using InventoryService.Configurations;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -117,8 +118,12 @@ namespace InventoryService.Controllers
 
         private JwtSecurityToken GetToken(List<Claim> authClaims)
         {
+            // Add services to the container.
+            Dictionary<string, Object> data = new VaultConfiguration(_configuration)
+               .GetSecret().Result;
+
             var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.
-                GetBytes(_configuration["JWT:Secret"]));
+                GetBytes(data["key"].ToString()));
 
             var token = new JwtSecurityToken(
                 issuer: _configuration["JWT:ValidIssuer"],
