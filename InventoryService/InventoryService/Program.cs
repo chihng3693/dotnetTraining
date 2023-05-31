@@ -15,10 +15,13 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Serilog.Sinks.Elasticsearch;
+using Serilog;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 ConfigurationManager configuration = builder.Configuration;
-
+var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
 // Add services to the container.
 Dictionary<string, Object> data = new VaultConfiguration(configuration)
     .GetConfiguration().Result;
@@ -134,7 +137,22 @@ builder.Services.AddGraphQL()
                .AddSystemTextJson()
                .AddGraphTypes(typeof(CategorySchema), ServiceLifetime.Scoped);
 
+Log.Logger = new LoggerConfiguration()
+    .Enrich.FromLogContext()
 
+    .WriteTo.Debug()
+    .WriteTo.Console()
+    .WriteTo.Elasticsearch(new ElasticsearchSinkOptions(new
+        Uri(configuration["ElasticConfiguration:Uri"]))
+    {
+        AutoRegisterTemplate = true,
+        IndexFormat = $"InventoryIndex-{DateTime.UtcNow:yyyy-MM}"
+    })
+    .Enrich.WithProperty("Environment", environment)
+    .ReadFrom.Configuration(configuration)
+    .CreateLogger();
+
+builder.Host.UseSerilog();
 
 var app = builder.Build();
 var apiVersionDescriptionProvider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
