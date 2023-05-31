@@ -41,3 +41,22 @@ mutation($categoryId:Long!, $categoryName:String!){
   "categoryName": "Electric Kitchen Appliances"
   
 }
+=============================================
+mutation($product:ProductInput!,$catalogId:Long!){
+  insertProduct(product:$product,catalogId:$catalogId){
+    name
+  }
+}
+{
+  "product": {
+    "name": "Juicer",
+    "sKU": "A293469",
+    "productDescription": {
+      "summary": "Mixer Juicer",
+      "cost": 56789,
+      "dOP": "2023-11-05",
+      "dOE": "2027-11-05"
+    }    
+  },
+  "catalogId": 8
+}
