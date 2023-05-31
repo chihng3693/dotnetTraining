@@ -17,17 +17,18 @@ namespace InventoryService.Mutations
             _productRepo = productRepo;
 
             Name = "EcommerceMutation";
-            Field<CategoryGLType>("insertCategory",
+            FieldAsync<CategoryGLType>("insertCategory",
             arguments: new QueryArguments(
 
                 new QueryArgument<CategoryGLInputType> { Name = "category" }),
 
-            resolve: context =>
+            resolve: async context =>
             {
 
                 var category = context.GetArgument<Category>("category");
 
-                return InsertCategory(category);
+                var result = await InsertCategory(category);
+                return result;
             });
             
             Field<CategoryGLType>(
