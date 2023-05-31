@@ -45,7 +45,7 @@ namespace InventoryService.Mutations
                    return UpdateCategory(categoryId, categoryName);
                }
            );
-            //will async operation
+            
             FieldAsync<StringGraphType>(
                 "DeleteCategory",
                 arguments: new QueryArguments(new QueryArgument<NonNullGraphType<LongGraphType>>
