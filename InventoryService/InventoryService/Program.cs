@@ -21,6 +21,7 @@ using System;
 using VaultSharp.V1.SystemBackend;
 using Microsoft.Net.Http.Headers;
 using InventoryService.Models;
+using InventoryService.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 ConfigurationManager configuration = builder.Configuration;
@@ -184,7 +185,7 @@ builder.Host.UseSerilog();
 
 //Ldap
 builder.Services.Configure<LdapConfig>(configuration.GetSection("Ldap"));
-
+builder.Services.AddTransient<ILdapService, LdapService>();
 var app = builder.Build();
 var apiVersionDescriptionProvider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
 // Configure the HTTP request pipeline.
