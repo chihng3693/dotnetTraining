@@ -1,6 +1,6 @@
 ﻿using InventoryService.Models;
 
-namespace InventoryService.Repositories
+namespace InventoryService.Services
 {
     public interface ILdapService
     {
