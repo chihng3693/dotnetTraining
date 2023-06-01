@@ -85,7 +85,7 @@ builder.Services.AddAuthentication(options =>
     options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
 })
 // Add services to the container.
-           
+          
 // Adding Jwt Bearer
 .AddJwtBearer(options =>
 {
@@ -107,8 +107,10 @@ builder.Services.AddCors(options =>
                       builder =>
                       {
                           builder
-                            .WithOrigins("http://localhost:3000") // specifying the allowed origin
-                           // .WithMethods("GET") // defining the allowed HTTP method
+                            .WithOrigins("http://localhost:*","")
+                            //.WithOrigins("http://localhost:4200")
+                             // specifying the allowed origin
+                             // .WithMethods("GET") // defining the allowed HTTP method
                              //.AllowAnyOrigin()
                              // .WithHeaders(HeaderNames.ContentType, "ApiKey")
                              .AllowAnyMethod()                            
@@ -196,9 +198,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
-app.UseAuthentication();
 app.UseCors(policyName);
+app.UseAuthentication();
+
 app.UseAuthorization();
 
 app.MapControllers();

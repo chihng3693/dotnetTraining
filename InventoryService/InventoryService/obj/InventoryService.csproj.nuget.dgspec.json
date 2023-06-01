@@ -156,6 +156,10 @@
               "target": "Package",
               "version": "[5.6.0, )"
             },
+            "System.DirectoryServices": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
             "VaultSharp": {
               "target": "Package",
               "version": "[1.13.0.1, )"
