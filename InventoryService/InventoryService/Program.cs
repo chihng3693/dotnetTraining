@@ -20,6 +20,7 @@ using Serilog;
 using System;
 using VaultSharp.V1.SystemBackend;
 using Microsoft.Net.Http.Headers;
+using InventoryService.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 ConfigurationManager configuration = builder.Configuration;
@@ -180,6 +181,9 @@ Log.Logger = new LoggerConfiguration()
     .CreateLogger();
 
 builder.Host.UseSerilog();
+
+//Ldap
+builder.Services.Configure<LdapConfig>(configuration.GetSection("Ldap"));
 
 var app = builder.Build();
 var apiVersionDescriptionProvider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
