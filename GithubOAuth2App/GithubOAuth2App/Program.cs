@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authentication.OAuth;
 using Microsoft.AspNetCore.Authentication;
 using System.Security.Claims;
 using System.Net.Http.Headers;
+using System.Text.Json;
 
 void CheckSameSite(HttpContext httpContext, CookieOptions options)
 {
