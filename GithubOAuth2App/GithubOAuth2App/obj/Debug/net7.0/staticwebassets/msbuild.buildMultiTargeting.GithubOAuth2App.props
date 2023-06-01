@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GithubOAuth2App.props" />
+</Project>
