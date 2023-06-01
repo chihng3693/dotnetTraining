@@ -2,6 +2,7 @@
 using InventoryService.Models;
 using InventoryService.Repositories;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using System.Reflection.Metadata.Ecma335;
 
@@ -15,6 +16,9 @@ namespace InventoryService.Controllers
      [ApiVersion("1.1")]
      [ApiVersion("2.0")]
     [Route("api/v{version:apiVersion}/[controller]")]
+    [EnableCors]
+    //Content negotiation
+    //[Produces("application/xml")]
     [ApiController]
     public class CategoryController : ControllerBase
     {

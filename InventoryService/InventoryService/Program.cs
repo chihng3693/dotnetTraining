@@ -18,6 +18,8 @@ using System.Text;
 using Serilog.Sinks.Elasticsearch;
 using Serilog;
 using System;
+using VaultSharp.V1.SystemBackend;
+using Microsoft.Net.Http.Headers;
 
 var builder = WebApplication.CreateBuilder(args);
 ConfigurationManager configuration = builder.Configuration;
@@ -98,8 +100,30 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretData["key"].ToString()))
     };
 });
+var policyName = "_myAllowSpecificOrigins";
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: policyName,
+                      builder =>
+                      {
+                          builder
+                            .WithOrigins("http://localhost:3000") // specifying the allowed origin
+                           // .WithMethods("GET") // defining the allowed HTTP method
+                             //.AllowAnyOrigin()
+                             // .WithHeaders(HeaderNames.ContentType, "ApiKey")
+                             .AllowAnyMethod()                            
+                            .AllowAnyHeader(); // allowing any header to be sent
+                      });
+});
 
-builder.Services.AddControllers();
+//builder.Services.AddControllers();
+
+builder.Services.AddControllers(options =>
+{
+    options.RespectBrowserAcceptHeader = true;
+    options.ReturnHttpNotAcceptable = true;
+}).AddXmlSerializerFormatters()
+.AddMvcOptions(options => options.OutputFormatters.Add(new CsvOutputFormatter()));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 //builder.Services.AddApiVersioning(x =>
@@ -149,6 +173,7 @@ Log.Logger = new LoggerConfiguration()
         IndexFormat = $"InventoryIndex-{DateTime.UtcNow:yyyy-MM}"
     })
     .Enrich.WithProperty("Environment", environment)
+    .Enrich.WithProperty("ApplicationName","Inventory")
     .ReadFrom.Configuration(configuration)
     .CreateLogger();
 
@@ -173,7 +198,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthentication();
-
+app.UseCors(policyName);
 app.UseAuthorization();
 
 app.MapControllers();

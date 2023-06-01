@@ -54,8 +54,18 @@ namespace InventoryService.Controllers
                 }
 
                 var token = GetToken(authClaims);
-
-                _logger.LogInformation($"Token Generated as {token} for the user {model.UserName}");
+                /*
+                 * GET inventoryindex-2023-05/_search
+                        {
+                          "query": {
+                        "match": {
+                              "message": "Token"
+                            }
+                          }
+                        }
+                 */
+                
+                _logger.LogInformation($"Token Generated as {token.Payload},{token.EncodedPayload} for the user {model.UserName}");
                 return Ok(new
                 {
                     token = new JwtSecurityTokenHandler().WriteToken(token),
