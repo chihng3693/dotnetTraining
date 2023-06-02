@@ -122,6 +122,7 @@ kubectl run -it --rm --image=mysql --restart=Never mysql-client -- mysql -h 10.1
 kubectl exec -it mongo-app-7559754fbf-n7mx4 /bin/bash
 kubectl apply -f deployment-v7.yml
 kubectl expose deployment --port 7070 customerapp --type=LoadBalancer --name=customerservicev1
+kubectl expose deployment --port 8090 --target-port 80 invapp --type=LoadBalancer --name=invservicev1
 #external ip pending then
 sudo microk8s kubectl patch svc traderservicev1  -p '{"spec": {"type": "LoadBalancer", "externalIPs":["172.22.0.1"]}}'
 #delete
