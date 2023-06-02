@@ -8,3 +8,8 @@ GO
 
 create database IntelEcommerceDB;
 GO
+
+
+---------------------------
+docker tag inventoryservice:dev eswaribala/rpsintelmay2023:invservicev1
+docker push eswaribala/rpsintelmay2023:invservicev1
