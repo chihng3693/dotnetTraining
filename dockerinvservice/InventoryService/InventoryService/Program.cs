@@ -28,29 +28,33 @@ var builder = WebApplication.CreateBuilder(args);
 ConfigurationManager configuration = builder.Configuration;
 var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
 // Add services to the container.
-Dictionary<string, Object> data = new VaultConfiguration(configuration)
-    .GetConfiguration().Result;
-//connection string
-SqlConnectionStringBuilder providerCs = new SqlConnectionStringBuilder();
-//reading from Vault server
-providerCs.InitialCatalog = data["dbname3"].ToString();
-providerCs.UserID = data["username"].ToString();
-providerCs.Password = data["password"].ToString();
-//providerCs.DataSource = "DESKTOP-55AGI0I\\MSSQLEXPRESS2022";
-var machineName = data["machinename"];
-var serverName = data["servername"];
-var datasource = machineName + "\\" + serverName;
-providerCs.DataSource = datasource;
-//reading via config server
-//providerCs.DataSource = configuration["servername"];
+//Dictionary<string, Object> data = new VaultConfiguration(configuration)
+//    .GetConfiguration().Result;
+////connection string
+//SqlConnectionStringBuilder providerCs = new SqlConnectionStringBuilder();
+////reading from Vault server
+//providerCs.InitialCatalog = data["dbname3"].ToString();
+//providerCs.UserID = data["username"].ToString();
+//providerCs.Password = data["password"].ToString();
+////providerCs.DataSource = "DESKTOP-55AGI0I\\MSSQLEXPRESS2022";
+//var machineName = data["machinename"];
+//var serverName = data["servername"];
+//var datasource = machineName + "\\" + serverName;
+//providerCs.DataSource = datasource;
+////reading via config server
+////providerCs.DataSource = configuration["servername"];
 
-//providerCs.UserID = CryptoService2.Decrypt(ConfigurationManager.
-//AppSettings["UserId"]);
-providerCs.MultipleActiveResultSets = true;
-providerCs.TrustServerCertificate = true;
+////providerCs.UserID = CryptoService2.Decrypt(ConfigurationManager.
+////AppSettings["UserId"]);
+//providerCs.MultipleActiveResultSets = true;
+//providerCs.TrustServerCertificate = true;
 
-builder.Services.AddDbContext<InventoryContext>(o =>
-o.UseSqlServer(providerCs.ToString()));
+//builder.Services.AddDbContext<InventoryContext>(o =>
+//o.UseSqlServer(providerCs.ToString()));
+
+builder.Services.AddDbContext<InventoryContext>(options =>
+options.UseSqlServer(configuration.
+GetConnectionString("InvConn")));
 
 builder.Services.AddDbContext<InventoryIdentityContext>(options =>
 options.UseSqlServer(configuration.
@@ -76,8 +80,8 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<InventoryIdentityContext>()
     .AddDefaultTokenProviders();
 
-Dictionary<string, Object> secretData = new VaultConfiguration(configuration)
-              .GetSecret().Result;
+//Dictionary<string, Object> secretData = new VaultConfiguration(configuration)
+            //  .GetSecret().Result;
 
 
 // Adding Authentication
@@ -100,7 +104,7 @@ builder.Services.AddAuthentication(options =>
         ValidateAudience = true,
         ValidAudience = configuration["JWT:ValidAudience"],
         ValidIssuer = configuration["JWT:ValidIssuer"],
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretData["key"].ToString()))
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:SecretKey"].ToString()))
     };
 });
 var policyName = "_myAllowSpecificOrigins";
