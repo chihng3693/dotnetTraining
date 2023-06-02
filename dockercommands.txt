@@ -1,0 +1,1 @@
+docker exec -it dockercompose7826411581417792619_sqlserverinsservice_1 /opt/mssql-tools/bin/sqlcmd -U sa -P Vignesh@95
