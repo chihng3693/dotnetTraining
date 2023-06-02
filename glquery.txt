@@ -1,0 +1,62 @@
+query($categoryId:Long!)  {
+    category(categoryId:$categoryId) {
+        
+        categoryName
+        
+    }
+}
+
+
+{
+   "categoryId":2
+
+}
+=====================
+mutation($category:CategoryInput!){
+  insertCategory(category:$category){
+    categoryName
+  }
+}
+
+{
+  "category": {
+    "categoryName": "Jewellery",
+    "createdDate": "2023-05-05",
+    "lastUpdatedDate": "2023-05-05",
+    "createdBy": "Parameswari",
+    "lastUpdatedBy": "Parameswari"
+  }
+}
+========================================
+
+mutation($categoryId:Long!, $categoryName:String!){
+  updateCategory(categoryId:$categoryId,categoryName:$categoryName){
+    categoryName
+  }
+}
+
+
+{
+  "categoryId": 8,
+  "categoryName": "Electric Kitchen Appliances"
+  
+}
+=============================================
+mutation($product:ProductInput!,$catalogId:Long!){
+  insertProduct(product:$product,catalogId:$catalogId){
+    name
+  }
+}
+{
+  "product": {
+    "name": "Juicer",
+    "sKU": "A293469",
+    "productDescription": {
+      "summary": "Mixer Juicer",
+      "cost": 56789,
+      "dOP": "2023-11-05",
+      "dOE": "2027-11-05"
+    }    
+  },
+  "catalogId": 8
+}
