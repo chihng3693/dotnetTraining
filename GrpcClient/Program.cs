@@ -11,3 +11,12 @@ var grpcChannel = GrpcChannel.ForAddress("https://localhost:7286");
 var client = new Greeter.GreeterClient(grpcChannel);
 var response = await client.SayHelloAsync(data);
 Console.WriteLine(response.Message);
+var orderdata = new OrderRequest { OrderId = 1 };
+var grpcOrderChannel = GrpcChannel.ForAddress("https://localhost:7286");
+var orderclient = new OrderProcessing.OrderProcessingClient(grpcOrderChannel);
+var orderresponse = await orderclient.GetOrderAsync(orderdata);
+Console.WriteLine("Order Quantity: {0}", orderresponse.Order.OrderQuantity);
+
+
+
+Console.ReadKey();
