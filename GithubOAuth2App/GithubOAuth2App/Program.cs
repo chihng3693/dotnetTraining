@@ -91,6 +91,13 @@ app.UseRouting();
 app.MapControllerRoute(
        name: "default",
        pattern: "{controller}/{action=Index}/{id?}");
+/*
+ * MapRoute(
+   name: "api", 
+   template: "api/{controller}/{action}/{id?}",
+   defaults: new { Controller = "Messages", action="My" },
+   constraints: new { id = new IntRouteConstraint() });
+ */
 app.UseCookiePolicy();
 app.UseAuthentication();
 app.UseAuthorization();
