@@ -143,11 +143,11 @@ namespace InventoryService.Controllers
         private JwtSecurityToken GetToken(List<Claim> authClaims)
         {
             // Add services to the container.
-            Dictionary<string, Object> data = new VaultConfiguration(_configuration)
-               .GetSecret().Result;
+         //   Dictionary<string, Object> data = new VaultConfiguration(_configuration)
+            //   .GetSecret().Result;
 
             var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.
-                GetBytes(data["key"].ToString()));
+                GetBytes(_configuration["JWT:SecretKey"].ToString()));
 
             var token = new JwtSecurityToken(
                 issuer: _configuration["JWT:ValidIssuer"],
