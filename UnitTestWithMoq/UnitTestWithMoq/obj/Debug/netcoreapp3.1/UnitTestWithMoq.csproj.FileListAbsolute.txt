@@ -1,0 +1,188 @@
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\appsettings.Development.json
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\appsettings.json
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\UnitTestWithMoq.exe
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\UnitTestWithMoq.deps.json
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\UnitTestWithMoq.runtimeconfig.json
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\UnitTestWithMoq.runtimeconfig.dev.json
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\UnitTestWithMoq.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\UnitTestWithMoq.pdb
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Humanizer.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.AssemblyInfoInputs.cache
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.AssemblyInfo.cs
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.csproj.CoreCompileInputs.cache
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.MvcApplicationPartsAssemblyInfo.cache
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\staticwebassets\UnitTestWithMoq.StaticWebAssets.Manifest.cache
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\staticwebassets\UnitTestWithMoq.StaticWebAssets.xml
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\scopedcss\bundle\UnitTestWithMoq.styles.css
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.RazorTargetAssemblyInfo.cache
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.csproj.CopyComplete
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.dll
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.pdb
+H:\Practise\UnitTestWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.genruntimeconfig.cache
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\appsettings.Development.json
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\appsettings.json
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\UnitTestWithMoq.exe
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\UnitTestWithMoq.deps.json
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\UnitTestWithMoq.runtimeconfig.json
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\UnitTestWithMoq.runtimeconfig.dev.json
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\UnitTestWithMoq.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\UnitTestWithMoq.pdb
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Humanizer.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.AssemblyInfoInputs.cache
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.AssemblyInfo.cs
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.csproj.CoreCompileInputs.cache
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.MvcApplicationPartsAssemblyInfo.cache
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\staticwebassets\UnitTestWithMoq.StaticWebAssets.Manifest.cache
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\staticwebassets\UnitTestWithMoq.StaticWebAssets.xml
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\scopedcss\bundle\UnitTestWithMoq.styles.css
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.RazorTargetAssemblyInfo.cache
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.csproj.CopyComplete
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.dll
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.pdb
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.genruntimeconfig.cache
+H:\Practise\UnitTestWithMoq1\UnitTestingWithMoq\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.csproj.AssemblyReference.cache
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\appsettings.Development.json
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\appsettings.json
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\UnitTestWithMoq.StaticWebAssets.xml
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\UnitTestWithMoq.exe
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\UnitTestWithMoq.deps.json
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\UnitTestWithMoq.runtimeconfig.json
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\UnitTestWithMoq.runtimeconfig.dev.json
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\UnitTestWithMoq.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\UnitTestWithMoq.pdb
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Humanizer.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.csproj.AssemblyReference.cache
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.GeneratedMSBuildEditorConfig.editorconfig
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.AssemblyInfoInputs.cache
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.AssemblyInfo.cs
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.csproj.CoreCompileInputs.cache
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.MvcApplicationPartsAssemblyInfo.cache
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\staticwebassets\UnitTestWithMoq.StaticWebAssets.Manifest.cache
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.RazorTargetAssemblyInfo.cache
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.csproj.CopyComplete
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.dll
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.pdb
+G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\obj\Debug\netcoreapp3.1\UnitTestWithMoq.genruntimeconfig.cache

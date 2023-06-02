@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = UnitTestWithMoq
+build_property.ProjectDir = G:\Local disk\nov2021\dotnetmicroservices\UnitTestWithMoq\UnitTestWithMoq\
