@@ -14,7 +14,7 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: invapp-v1
+  name: invapp
 spec:
   selector:
 
@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: invapp
-        image: eswaribala/rpsintelmay2023:invservicev1
+        image: eswaribala/rpsintelmay2023:invapp
         
         ports:
         - containerPort: 80
@@ -45,4 +45,4 @@ spec:
               value: "Server=Server=host.docker.internal,1406;Database=IntelEcommerceDB;User ID=sa;Password=Vignesh@95;TrustServerCertificate=true;MultipleActiveResultSets=true"
             - name: SQLSERVER_CONNECTIONSTRING2
 
-              value: "Server=Server=host.docker.internal,1406;Database=IntelIdentityDB;User ID=sa;Password=Vignesh@95;TrustServerCertificate=true;MultipleActiveResultSets=true"
+              value: "Server=Server=host.docker.internal,1406;Database=IntelIdentityJul2022DB;User ID=sa;Password=Vignesh@95;TrustServerCertificate=true;MultipleActiveResultSets=true"
