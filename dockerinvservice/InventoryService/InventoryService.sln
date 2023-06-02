@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryService", "InventoryService\InventoryService.csproj", "{EB17FFE1-4EB4-434F-9093-15527BC27DA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryService", "InventoryService\InventoryService.csproj", "{EB17FFE1-4EB4-434F-9093-15527BC27DA3}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F7AE4DA5-BB59-414A-916C-44D05CCA662A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EB17FFE1-4EB4-434F-9093-15527BC27DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB17FFE1-4EB4-434F-9093-15527BC27DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB17FFE1-4EB4-434F-9093-15527BC27DA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7AE4DA5-BB59-414A-916C-44D05CCA662A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7AE4DA5-BB59-414A-916C-44D05CCA662A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7AE4DA5-BB59-414A-916C-44D05CCA662A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7AE4DA5-BB59-414A-916C-44D05CCA662A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
