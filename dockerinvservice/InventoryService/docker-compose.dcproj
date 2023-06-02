@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>f7ae4da5-bb59-414a-916c-44d05cca662a</ProjectGuid>
+    <ProjectGuid>3f5db7c1-5da7-4cc6-8ef2-811f2d33b824</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/swagger</DockerServiceUrl>
     <DockerServiceName>inventoryservice</DockerServiceName>
